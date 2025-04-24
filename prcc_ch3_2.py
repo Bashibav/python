@@ -5,4 +5,4 @@ letter='''Dear <name>,
                     <date>'''
 name=input("Enter name of passed candidate: ")
 date=input("Enter date of passed: ")
-print(letter.replace("<name>",name).replace("<date>",date))
+print(letter.replace("<name>",name).replace("<date>",date)) 
