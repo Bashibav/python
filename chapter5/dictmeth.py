@@ -16,6 +16,6 @@ print(marks.keys(),"\n")
 marks.update({"ram":67,"raju":70})
 print(marks,"\n")
 
-#get method is used to return keys value
+#get method is used to return keys value(if value doesnot exist return null)
 print(marks.get("raju"))
 

@@ -9,3 +9,4 @@ marks={
 print(marks)
 print(type(marks))
 print(marks["hari"]) #search through key value
+#we can make list inside distionary
