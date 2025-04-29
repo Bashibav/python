@@ -14,5 +14,5 @@ elif(a<=0):
     print("you entered invalid agee.")
 else:
     print(" You are minor for voting.")
-
+#statement 2 ends 
 print(" program ends here." )
