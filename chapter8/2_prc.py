@@ -1,4 +1,4 @@
-#program to convert celcius into ferenheight
+#program to convert  ferenheight into celcius 
 def f_to_c(f):
     return 5*(f-32)/9
 f=int(input("Enter temperature in ferenheight: "))
