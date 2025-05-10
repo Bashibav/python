@@ -15,6 +15,7 @@ class intern(position):# inherits multilevel inheritence from position-->employe
     def __init__(self):
         self.name1=name1
         super().position() # using super key to call position method inside child intern
+        super().emp()
     def hire(self):
         print(f"{name1} is hired as new intern at {self.company} by {name}.")
 name="Toya"
@@ -22,4 +23,3 @@ sal=1245000
 name1=input("enter the name of intern: ")
 i=intern() # call by child class intern
 i.hire()
-i.emp()
