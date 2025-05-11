@@ -36,10 +36,10 @@ choose your option
          print(f"Difference = {b}")
     elif(op== "*"):
          c=num.__mul__()
-         print(f"multiply = {c}")
+         print(f"product = {c}")
     elif(op== "/"):
          d=num.__div__()
-         print(f"division= {d}")
+         print(f"Quatant = {d}")
     else:
          print("Incorrect Option!")
     choice = input("Do you want to continue? (y/n): ")
