@@ -1,4 +1,4 @@
-#make a employee calss and add salry and increament property based on salary
+#make a employee calss and add salry and increament property based on salary and calculate bonus %
 class employee():
     def __init__(self,sal,inc):
         self.sal=sal
