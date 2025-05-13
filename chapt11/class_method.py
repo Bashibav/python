@@ -1,4 +1,5 @@
 #class method is way to directly acess a class inside method
+# while giving object value instant value is priorely acessd over class value so @classmethod is used to access class value
 class employ():
     company="Google"
     @classmethod #used to acess class value over instant value of given object.
