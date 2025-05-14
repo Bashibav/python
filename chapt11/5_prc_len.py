@@ -2,7 +2,7 @@
 class vector:
     def __init__(self,lst):
         self.i, self.j, self.k = lst
-        self.lst=1
+        self.lst=lst
     def __add__(self,other):
         result=vector([self.i+other.i,self.j+other.j,self.k+other.k])
         return result
@@ -30,4 +30,4 @@ elif(opt=='*'):
     print(f"The product of Vectors is {vec1*vec2}")
 else:
     print("Invalid operator!")
-print(f"The dimension of both Of vector is {len(vec1)}")
+print(f"The dimension of both Of vector is {len(vec1)}/{len(vec2)}.")
