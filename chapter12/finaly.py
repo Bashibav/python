@@ -10,5 +10,6 @@ def main():
     finally:
         print("im inside finally.")
 if __name__=="__main__":
+    #this function allows below code execute only when run from main file.
     main()
     print(__name__)
